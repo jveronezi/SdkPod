@@ -1,0 +1,22 @@
+{
+  "name": "SdkPod",
+  "version": "0.1.0",
+  "summary": "A short description of SdkPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/55355294/SdkPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "55355294": "jveronezi@fullstacklabs.co"
+  },
+  "source": {
+    "git": "https://github.com/55355294/SdkPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SdkPod/Classes/**/*"
+}

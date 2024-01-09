@@ -1,0 +1,6 @@
+framework module SdkPod {
+  umbrella header "SdkPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
