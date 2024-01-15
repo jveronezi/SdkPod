@@ -21,6 +21,7 @@
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
     "GCC_WARN_PEDANTIC": "YES"
   },
+  "header_mappings_dir": "./",
   "dependencies": {
     "React-logger": [
       "0.73.1"
@@ -53,9 +54,6 @@
         ],
         "glog": [
 
-        ],
-        "hermes-engine": [
-
         ]
       },
       "subspecs": [
@@ -64,9 +62,6 @@
           "dependencies": {
             "React-jsi": [
               "0.73.1"
-            ],
-            "hermes-engine": [
-
             ]
           },
           "source_files": "react/bridging/**/*.{cpp,h}",
