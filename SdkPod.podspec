@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SdkPod'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of SdkPod.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -37,6 +37,7 @@ TODO: Add long description of the pod here.
     '../node_modules/react-native/Libraries/Settings/React-RCTSettings.podspec',
     '../node_modules/react-native/Libraries/Text/React-RCTText.podspec',
     '../node_modules/react-native/Libraries/Vibration/React-RCTVibration.podspec'
+    '../node_modules/react-native/Libraries/AppDelegate/React-RCTAppDelegate.podspec',
   ]
 
   core_dependencies = [
