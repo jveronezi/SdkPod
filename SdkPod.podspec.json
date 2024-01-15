@@ -1,9 +1,9 @@
 {
   "name": "SdkPod",
-  "version": "0.1.2",
-  "summary": "A short description of sdk-pod.",
+  "version": "0.1.3",
+  "summary": "A short description of SdkPod.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/jveronezi/sdk-pod",
+  "homepage": "https://github.com/jveronezi/SdkPod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "jveronezi": "jveronezi@fullstacklabs.co"
   },
   "source": {
-    "git": "https://github.com/jveronezi/sdk-pod.git",
-    "tag": "0.1.2"
+    "git": "https://github.com/jveronezi/SdkPod.git",
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "13.4"
@@ -52,6 +52,9 @@
     "React-perflogger": ["0.73.1"],
     "React-runtimeexecutor": ["0.73.1"],
     "React-logger": ["0.73.1"],
+    "React-debug": ["0.73.1"],
+    "React-utils": ["0.73.1"],
+    "React-runtimescheduler": ["0.73.1"],
     "DoubleConversion": ["1.1.6"],
     "RCT-Folly": ["2022.05.16.00"],
     "glog": ["0.3.5"],
