@@ -1,0 +1,60 @@
+{
+  "name": "SdkPod",
+  "version": "0.1.2",
+  "summary": "A short description of sdk-pod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jveronezi/sdk-pod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jveronezi": "jveronezi@fullstacklabs.co"
+  },
+  "source": {
+    "git": "https://github.com/jveronezi/sdk-pod.git",
+    "tag": "0.1.2"
+  },
+  "platforms": {
+    "ios": "13.4"
+  },
+  "source_files": "SdkPod/Classes/**/*.{h,m,swift}",
+  "resources": "SdkPod/Assets/{SdkPod.js,assets}",
+  "ios": {
+    "resource_bundles": {
+      "SdkPod": ["SdkPod/Assets/{SdkPod.js,assets}"]
+    }
+  },
+  "dependencies": {
+    "React": ["0.73.1"],
+    "React-Core": ["0.73.1"],
+    "React-CoreModules": ["0.73.1"],
+    "React-RCTActionSheet": ["0.73.1"],
+    "React-RCTAnimation": ["0.73.1"],
+    "React-RCTBlob": ["0.73.1"],
+    "React-RCTImage": ["0.73.1"],
+    "React-RCTLinking": ["0.73.1"],
+    "React-RCTNetwork": ["0.73.1"],
+    "React-RCTSettings": ["0.73.1"],
+    "React-RCTText": ["0.73.1"],
+    "React-RCTVibration": ["0.73.1"],
+    "React-cxxreact": ["0.73.1"],
+    "React-jsi": ["0.73.1"],
+    "React-jsiexecutor": ["0.73.1"],
+    "FBReactNativeSpec": ["0.73.1"],
+    "RCTTypeSafety": ["0.73.1"],
+    "ReactCommon": ["0.73.1"],
+    "Yoga": ["1.14.1"],
+    "RCTRequired": ["0.73.1"],
+    "FBLazyVector": ["0.73.1"],
+    "React-jsinspector": ["0.73.1"],
+    "React-callinvoker": ["0.73.1"],
+    "React-perflogger": ["0.73.1"],
+    "React-runtimeexecutor": ["0.73.1"],
+    "React-logger": ["0.73.1"],
+    "DoubleConversion": ["1.1.6"],
+    "RCT-Folly": ["2022.05.16.00"],
+    "glog": ["0.3.5"],
+    "boost": ["1.83.0"]
+  }
+}

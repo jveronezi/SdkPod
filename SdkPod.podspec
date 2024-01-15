@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SdkPod'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of SdkPod.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -76,6 +76,10 @@ TODO: Add long description of the pod here.
   podspecs.each do |podspec_path|
     # p podspec_path
     spec = Pod::Specification.from_file podspec_path
+    if spec.name === "Yoga"
+      s.dependency spec.name, "1.14.1"
+    else
       s.dependency spec.name, "#{spec.version}"
+    end
   end
 end
