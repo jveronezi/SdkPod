@@ -1,6 +1,6 @@
 {
   "name": "SdkPod",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "summary": "A short description of SdkPod.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/jveronezi/SdkPod",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/jveronezi/SdkPod.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "13.4"
@@ -58,7 +58,6 @@
     "DoubleConversion": ["1.1.6"],
     "RCT-Folly": ["2022.05.16.00"],
     "glog": ["0.3.5"],
-    "boost": ["1.83.0"],
-    "React-RCTAppDelegate": ["0.73.1"]
+    "boost": ["1.83.0"]
   }
 }

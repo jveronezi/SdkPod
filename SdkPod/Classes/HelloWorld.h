@@ -6,9 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <React/RCTBridgeModule.h>
-#import <React/RCTEventEmitter.h>
-#import <React/RCTRootView.h>
+//#import <React/RCTBridgeModule.h>
+//#import <React/RCTEventEmitter.h>
+//#import <React/RCTRootView.h>
 
 @interface HelloWorld : NSObject
 
