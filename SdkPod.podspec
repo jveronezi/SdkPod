@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SdkPod'
-  s.version          = '0.1.9'
+  s.version          = '0.1.10'
   s.summary          = 'A short description of SdkPod.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -21,8 +21,8 @@ TODO: Add long description of the pod here.
   s.platform       = :ios, '13.4'
  
   s.source_files = 'SdkPod/Classes/**/*.{h,m,swift}'
-  s.resources      = 'SdkPod/Assets/{SdkPod.js,assets}'
-  s.ios.resource_bundles = { 'SdkPod' => ['SdkPod/Assets/{SdkPod.js,assets}'] }
+  s.resources      = 'SdkPod/Assets/{PaciolanSDK.js,assets}'
+  s.ios.resource_bundles = { 'PaciolanSDK' => ['SdkPod/Assets/{PaciolanSDK.js,assets}'] }
 
   core = [
     '../node_modules/react-native/React.podspec',
@@ -57,7 +57,6 @@ TODO: Add long description of the pod here.
     '../node_modules/react-native/ReactCommon/reactperflogger/React-perflogger.podspec',
     '../node_modules/react-native/ReactCommon/runtimeexecutor/React-runtimeexecutor.podspec',
     '../node_modules/react-native/ReactCommon/logger/React-logger.podspec',
-    '../node_modules/react-native/ReactCommon/hermes/React-hermes.podspec',
     '../node_modules/react-native/ReactCommon/react/debug/React-debug.podspec',
     '../node_modules/react-native/ReactCommon/react/utils/React-utils.podspec',
     '../node_modules/react-native/ReactCommon/react/renderer/runtimescheduler/React-runtimescheduler.podspec'

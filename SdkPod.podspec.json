@@ -1,6 +1,6 @@
 {
   "name": "SdkPod",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "summary": "A short description of SdkPod.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/jveronezi/SdkPod",
@@ -13,16 +13,16 @@
   },
   "source": {
     "git": "https://github.com/jveronezi/SdkPod.git",
-    "tag": "0.1.9"
+    "tag": "0.1.10"
   },
   "platforms": {
     "ios": "13.4"
   },
   "source_files": "SdkPod/Classes/**/*.{h,m,swift}",
-  "resources": "SdkPod/Assets/{SdkPod.js,assets}",
+  "resources": "SdkPod/Assets/{PaciolanSDK.js,assets}",
   "ios": {
     "resource_bundles": {
-      "SdkPod": ["SdkPod/Assets/{SdkPod.js,assets}"]
+      "PaciolanSDK": ["SdkPod/Assets/{PaciolanSDK.js,assets}"]
     }
   },
   "dependencies": {

@@ -11,6 +11,7 @@
 #endif
 
 #import "HelloWorld.h"
+#import "SdkPodViewController.h"
 
 FOUNDATION_EXPORT double SdkPodVersionNumber;
 FOUNDATION_EXPORT const unsigned char SdkPodVersionString[];
