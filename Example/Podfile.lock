@@ -1015,7 +1015,7 @@ PODS:
     - React-jsi (= 0.73.1)
     - React-logger (= 0.73.1)
     - React-perflogger (= 0.73.1)
-  - SdkPod (0.1.9):
+  - SdkPod (0.0.1):
     - boost (= 1.83.0)
     - DoubleConversion (= 1.1.6)
     - FBLazyVector (= 0.73.1)
@@ -1030,10 +1030,12 @@ PODS:
     - React-CoreModules (= 0.73.1)
     - React-cxxreact (= 0.73.1)
     - React-debug (= 0.73.1)
+    - React-jsc (= 0.73.1)
     - React-jsi (= 0.73.1)
     - React-jsiexecutor (= 0.73.1)
     - React-jsinspector (= 0.73.1)
     - React-logger (= 0.73.1)
+    - React-NativeModulesApple (= 0.73.1)
     - React-perflogger (= 0.73.1)
     - React-RCTActionSheet (= 0.73.1)
     - React-RCTAnimation (= 0.73.1)
@@ -1044,6 +1046,8 @@ PODS:
     - React-RCTSettings (= 0.73.1)
     - React-RCTText (= 0.73.1)
     - React-RCTVibration (= 0.73.1)
+    - React-rendererdebug (= 0.73.1)
+    - React-rncore (= 0.73.1)
     - React-runtimeexecutor (= 0.73.1)
     - React-runtimescheduler (= 0.73.1)
     - React-utils (= 0.73.1)
@@ -1255,10 +1259,10 @@ SPEC CHECKSUMS:
   React-runtimescheduler: 2e499ba0929c328ee5e975abc1f14747aa314968
   React-utils: a8bf5dd31f525a098a49a9a46d066fa2f836a19a
   ReactCommon: 686b789e0592cf16254f36fcb2b8c80fcdd85bc3
-  SdkPod: dec525c27c2691adacdb1d0df96a5c6b291a539e
+  SdkPod: c76b701eaf1e0d3d20e2900617a1c0a7007352a9
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 4f53dc50008d626fa679c7a1cb4bed898f8c0bde
 
-PODFILE CHECKSUM: 938309d43411956dbfaeb55345918d054f76d92a
+PODFILE CHECKSUM: b4b96490039325eff29cc9310d729fbd0a126709
 
 COCOAPODS: 1.14.3
